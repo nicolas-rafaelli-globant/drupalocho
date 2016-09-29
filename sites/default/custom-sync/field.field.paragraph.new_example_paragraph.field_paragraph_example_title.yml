@@ -1,0 +1,19 @@
+uuid: caca777e-2c16-41d6-ab04-438ce022fbbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_example_title
+    - paragraphs.paragraphs_type.new_example_paragraph
+id: paragraph.new_example_paragraph.field_paragraph_example_title
+field_name: field_paragraph_example_title
+entity_type: paragraph
+bundle: new_example_paragraph
+label: 'Paragraph Example Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

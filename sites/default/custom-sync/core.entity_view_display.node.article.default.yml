@@ -8,12 +8,14 @@ dependencies:
     - field.field.node.article.field_article_boolean
     - field.field.node.article.field_article_date
     - field.field.node.article.field_image
+    - field.field.node.article.field_paragraph_social_media
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
   module:
     - comment
     - datetime
+    - entity_reference_revisions
     - image
     - text
     - user
@@ -62,6 +64,14 @@ content:
       image_link: ''
     third_party_settings: {  }
     label: hidden
+  field_paragraph_social_media:
+    type: entity_reference_revisions_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
   field_tags:
     type: entity_reference_label
     weight: 10

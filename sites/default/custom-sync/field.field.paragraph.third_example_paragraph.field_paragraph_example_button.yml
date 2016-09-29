@@ -1,0 +1,23 @@
+uuid: 76e11df1-36a3-47d6-bb46-01b239182129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_example_button
+    - paragraphs.paragraphs_type.third_example_paragraph
+  module:
+    - link
+id: paragraph.third_example_paragraph.field_paragraph_example_button
+field_name: field_paragraph_example_button
+entity_type: paragraph
+bundle: third_example_paragraph
+label: 'Paragraph Example Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,27 @@
+uuid: 32038896-8c18-4774-91bd-2a65b3aa673f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_file
+    - paragraphs.paragraphs_type.second_example_paragraph
+  module:
+    - file
+id: paragraph.second_example_paragraph.field_file
+field_name: field_file
+entity_type: paragraph
+bundle: second_example_paragraph
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,35 @@
+uuid: bd99f914-ccfa-4671-a310-a5da8e7e1e3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.third_example_paragraph.field_paragraph_example_button
+    - field.field.paragraph.third_example_paragraph.field_paragraph_example_email
+    - paragraphs.paragraphs_type.third_example_paragraph
+  module:
+    - link
+id: paragraph.third_example_paragraph.default
+targetEntityType: paragraph
+bundle: third_example_paragraph
+mode: default
+content:
+  field_paragraph_example_button:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_paragraph_example_email:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+hidden:
+  created: true
+  uid: true

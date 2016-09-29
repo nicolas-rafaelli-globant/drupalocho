@@ -1,0 +1,6 @@
+uuid: 1475cc69-a7a2-4b46-bb3f-3054c46f63fe
+langcode: en
+status: true
+dependencies: {  }
+id: new_example_paragraph
+label: 'New Example Paragraph'

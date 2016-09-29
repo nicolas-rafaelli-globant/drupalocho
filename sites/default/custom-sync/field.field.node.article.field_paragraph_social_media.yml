@@ -1,0 +1,39 @@
+uuid: 505b1ca8-c760-432b-9360-4ec49f0fa96a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_social_media
+    - node.type.article
+    - paragraphs.paragraphs_type.social_media
+  module:
+    - entity_reference_revisions
+id: node.article.field_paragraph_social_media
+field_name: field_paragraph_social_media
+entity_type: node
+bundle: article
+label: 'Paragraph Social Media'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      social_media: social_media
+    target_bundles_drag_drop:
+      new_example_paragraph:
+        weight: 5
+        enabled: false
+      second_example_paragraph:
+        weight: 6
+        enabled: false
+      social_media:
+        enabled: true
+        weight: 7
+      third_example_paragraph:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions
