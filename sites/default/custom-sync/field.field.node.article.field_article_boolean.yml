@@ -1,0 +1,23 @@
+uuid: 888d4566-d3a9-4d14-afaf-35369a65a9a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_boolean
+    - node.type.article
+id: node.article.field_article_boolean
+field_name: field_article_boolean
+entity_type: node
+bundle: article
+label: Boolean
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

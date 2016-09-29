@@ -1,0 +1,14 @@
+uuid: 06d3855d-c9a8-4e86-bec3-e829f4b0431b
+name: DruOcho
+mail: druojr@local.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

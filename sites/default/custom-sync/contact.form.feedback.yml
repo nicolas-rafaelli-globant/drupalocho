@@ -1,0 +1,12 @@
+uuid: 1288fc56-3f27-4569-880d-17abd6c97496
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - druojr@local.com
+reply: ''
+weight: 0
