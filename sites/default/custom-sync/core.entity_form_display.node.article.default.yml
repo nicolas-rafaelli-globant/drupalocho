@@ -6,12 +6,14 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_article_boolean
+    - field.field.node.article.field_article_date
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
   module:
     - comment
+    - datetime
     - image
     - path
     - text
@@ -46,6 +48,11 @@ content:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+  field_article_date:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   field_image:
     type: image_image
     weight: 4
